@@ -1,3 +1,5 @@
 name: Tung Nguyen, My Portfolio Page
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+theme: jekyll-theme-cayman
