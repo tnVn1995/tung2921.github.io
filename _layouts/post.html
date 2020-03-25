@@ -1,9 +1,16 @@
 ---
 layout: default
 ---
+
+<section id="one" class="main style1">
 <h1>{{ page.title }}</h1>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-  {{ content }}
+<div class="container"></div>
+  <div class="row gtr-150">
+      <div class="col-6 col-12-medium">
+        {{ content }}
+      </div>
+  </div>
 </div>
+</section>

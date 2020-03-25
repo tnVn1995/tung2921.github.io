@@ -3,13 +3,13 @@ layout: default_old
 title: My Blog
 ---
 
-<section id="one" class="main style1">
-  <div class="container"></div>
-    <div class="row gtr-150">
-        <div class="col-6 col-12-medium">
-        <h1>{{ page.title }}</h1>
-        <ul class=posts>
 
+        <h1>{{ page.title }}</h1>
+        <section id="one" class="main style1">
+          <div class="container"></div>
+            <div class="row gtr-150">
+                <div class="col-6 col-12-medium">        
+        <ul class=posts>
           {% for post in site.posts %}
             <li><span>{{ post.date | date_to_string }}</span> » <a href={{ post.url }} title={{ post.title }}>{{ post.title }}</a></li>
           {% endfor %}
