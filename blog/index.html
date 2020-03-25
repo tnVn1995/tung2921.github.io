@@ -2,6 +2,8 @@
 layout: default_old
 title: My Blog
 ---
+
+<section id="one" class="main style1"></section>
 <h1>{{ page.title }}</h1>
 <ul class=posts>
 
@@ -9,3 +11,4 @@ title: My Blog
     <li><span>{{ post.date | date_to_string }}</span> » <a href={{ post.url }} title={{ post.title }}>{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+</section>
